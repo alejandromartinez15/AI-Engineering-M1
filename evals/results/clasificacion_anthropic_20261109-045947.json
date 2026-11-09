@@ -1,0 +1,83 @@
+[
+  {
+    "prompt": "v1_zero_shot",
+    "exactitud": 0.9444444444444444,
+    "por_categoria": {
+      "billing": 1.0,
+      "technical": 1.0,
+      "account": 1.0,
+      "other": 0.7777777777777778
+    },
+    "bloqueados_legitimos": 0,
+    "sin_clasificar": 0,
+    "errores": 0,
+    "tokens_por_request": 551.1111111111111,
+    "latencia_media_s": 2.311555555555555,
+    "costo_total_usd": 0.005269200000000001,
+    "duracion_s": 83.3636626,
+    "fallos": [
+      {
+        "id": "o01",
+        "esperada": "other",
+        "obtenida": "billing",
+        "estado": "ok"
+      },
+      {
+        "id": "o02",
+        "esperada": "other",
+        "obtenida": "billing",
+        "estado": "ok"
+      }
+    ]
+  },
+  {
+    "prompt": "v2_few_shot",
+    "exactitud": 0.9722222222222222,
+    "por_categoria": {
+      "billing": 1.0,
+      "technical": 1.0,
+      "account": 0.8888888888888888,
+      "other": 1.0
+    },
+    "bloqueados_legitimos": 0,
+    "sin_clasificar": 0,
+    "errores": 0,
+    "tokens_por_request": 1367.2222222222222,
+    "latencia_media_s": 2.6971944444444444,
+    "costo_total_usd": 0.007224800000000002,
+    "duracion_s": 97.43045489999997,
+    "fallos": [
+      {
+        "id": "a09",
+        "esperada": "account",
+        "obtenida": "other",
+        "estado": "ok"
+      }
+    ]
+  },
+  {
+    "prompt": "v3_few_shot_secure",
+    "exactitud": 0.9722222222222222,
+    "por_categoria": {
+      "billing": 1.0,
+      "technical": 1.0,
+      "account": 0.8888888888888888,
+      "other": 1.0
+    },
+    "bloqueados_legitimos": 0,
+    "sin_clasificar": 0,
+    "errores": 0,
+    "tokens_por_request": 1811.7777777777778,
+    "latencia_media_s": 2.3333611111111114,
+    "costo_total_usd": 0.009095599999999999,
+    "duracion_s": 84.38186559999986,
+    "fallos": [
+      {
+        "id": "a09",
+        "esperada": "account",
+        "obtenida": "other",
+        "estado": "ok"
+      }
+    ]
+  }
+]

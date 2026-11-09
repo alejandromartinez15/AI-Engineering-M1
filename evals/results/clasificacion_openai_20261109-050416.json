@@ -1,0 +1,101 @@
+[
+  {
+    "prompt": "v1_zero_shot",
+    "exactitud": 0.8611111111111112,
+    "por_categoria": {
+      "billing": 1.0,
+      "technical": 1.0,
+      "account": 0.8888888888888888,
+      "other": 0.5555555555555556
+    },
+    "bloqueados_legitimos": 0,
+    "sin_clasificar": 4,
+    "errores": 0,
+    "tokens_por_request": 381.8888888888889,
+    "latencia_media_s": 2.171444444444445,
+    "costo_total_usd": 0.0035967,
+    "duracion_s": 78.31536290000008,
+    "fallos": [
+      {
+        "id": "a09",
+        "esperada": "account",
+        "obtenida": null,
+        "estado": "invalid_contract"
+      },
+      {
+        "id": "o01",
+        "esperada": "other",
+        "obtenida": "billing",
+        "estado": "ok"
+      },
+      {
+        "id": "o04",
+        "esperada": "other",
+        "obtenida": null,
+        "estado": "invalid_contract"
+      },
+      {
+        "id": "o05",
+        "esperada": "other",
+        "obtenida": null,
+        "estado": "invalid_contract"
+      },
+      {
+        "id": "o07",
+        "esperada": "other",
+        "obtenida": null,
+        "estado": "invalid_contract"
+      }
+    ]
+  },
+  {
+    "prompt": "v2_few_shot",
+    "exactitud": 0.9722222222222222,
+    "por_categoria": {
+      "billing": 1.0,
+      "technical": 1.0,
+      "account": 0.8888888888888888,
+      "other": 1.0
+    },
+    "bloqueados_legitimos": 0,
+    "sin_clasificar": 0,
+    "errores": 0,
+    "tokens_por_request": 812.2222222222222,
+    "latencia_media_s": 1.4386388888888892,
+    "costo_total_usd": 0.005313449999999998,
+    "duracion_s": 52.05490570000006,
+    "fallos": [
+      {
+        "id": "a09",
+        "esperada": "account",
+        "obtenida": "other",
+        "estado": "ok"
+      }
+    ]
+  },
+  {
+    "prompt": "v3_few_shot_secure",
+    "exactitud": 0.9722222222222222,
+    "por_categoria": {
+      "billing": 1.0,
+      "technical": 1.0,
+      "account": 0.8888888888888888,
+      "other": 1.0
+    },
+    "bloqueados_legitimos": 0,
+    "sin_clasificar": 0,
+    "errores": 0,
+    "tokens_por_request": 1007.8333333333334,
+    "latencia_media_s": 1.0778333333333334,
+    "costo_total_usd": 0.00635355,
+    "duracion_s": 39.01009820000013,
+    "fallos": [
+      {
+        "id": "a09",
+        "esperada": "account",
+        "obtenida": "other",
+        "estado": "ok"
+      }
+    ]
+  }
+]
