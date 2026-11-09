@@ -1,0 +1,9 @@
+{
+  "_nota": "USD por 1.000.000 de tokens. Si un modelo tiene null, el costo de ese request se registra como null (no se inventa un precio). Si cambiás de modelo en el .env, agregá su precio acá.",
+  "_fuentes": "Verificados el 2026-11-05. claude-haiku-5-5 (tarifa para prompts de hasta 100.000 tokens): platform.claude.com/docs/en/about-claude/pricing. gpt-4o-mini: developers.openai.com/api/docs/models/gpt-4o-mini (la página lo marca como deprecado: verificar que siga disponible).",
+  "models": {
+    "gpt-4o-mini": { "input_per_1m": 0.15, "output_per_1m": 0.60 },
+    "claude-haiku-5-5": { "input_per_1m": 0.10, "output_per_1m": 0.50 },
+    "mock": { "input_per_1m": 0.0, "output_per_1m": 0.0 }
+  }
+}
