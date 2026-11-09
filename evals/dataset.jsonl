@@ -1,0 +1,36 @@
+{"id": "b01", "text": "Hola, me cobraron dos veces la suscripción de este mes, necesito que me reintegren uno de los cargos.", "category": "billing"}
+{"id": "b02", "text": "no me llega la factura de agosto, la necesito para mi contador urgente", "category": "billing"}
+{"id": "b03", "text": "¿Pueden enviarme el comprobante de pago del plan anual? No lo encuentro.", "category": "billing"}
+{"id": "b04", "text": "Mi tarjeta fue rechazada al renovar pero igual me descontaron el dinero.", "category": "billing"}
+{"id": "b05", "text": "Quiero cambiar los datos fiscales de mis facturas, nos cambiaron la razón social.", "category": "billing"}
+{"id": "b06", "text": "El monto que me cobraron no coincide con lo que dice mi plan.", "category": "billing"}
+{"id": "b07", "text": "Necesito la nota de crédito de la factura 4521, hubo un error en el importe.", "category": "billing"}
+{"id": "b08", "text": "Cancelé el servicio hace un mes y me siguen cobrando.", "category": "billing"}
+{"id": "b09", "text": "¿Cuándo se debita el próximo pago? Quiero asegurarme de tener fondos.", "category": "billing"}
+{"id": "t01", "text": "El dashboard de reportes me tira error 500 desde ayer, no puedo generar el cierre de caja.", "category": "technical"}
+{"id": "t02", "text": "Se me cayó la integración con Mercado Pago, los pagos no se están sincronizando desde esta mañana.", "category": "technical"}
+{"id": "t03", "text": "La aplicación va muy lenta, tarda más de un minuto en cargar el listado de clientes.", "category": "technical"}
+{"id": "t04", "text": "No puedo exportar el inventario a Excel, el botón no hace nada.", "category": "technical"}
+{"id": "t05", "text": "Me aparece 'Error de conexión' cada vez que intento emitir una factura electrónica.", "category": "technical"}
+{"id": "t06", "text": "La app móvil se cierra sola apenas la abro en mi Android.", "category": "technical"}
+{"id": "t07", "text": "Los reportes de ventas muestran datos de la semana pasada, parece que no se actualizan.", "category": "technical"}
+{"id": "t08", "text": "No me llegan las notificaciones por correo desde el sistema, revisé el spam.", "category": "technical"}
+{"id": "t09", "text": "Al importar el archivo CSV de productos se queda cargando infinitamente.", "category": "technical"}
+{"id": "a01", "text": "Quiero agregar un usuario nuevo a mi cuenta con permisos de solo lectura, ¿cómo lo hago?", "category": "account"}
+{"id": "a02", "text": "Necesito cambiar el email de administrador de la cuenta, el actual ya no existe en mi empresa.", "category": "account"}
+{"id": "a03", "text": "Olvidé mi contraseña y el enlace de recuperación no me llega.", "category": "account"}
+{"id": "a04", "text": "Un empleado se fue de la empresa, quiero quitarle el acceso hoy mismo.", "category": "account"}
+{"id": "a05", "text": "¿Cómo activo la verificación en dos pasos para mi cuenta?", "category": "account"}
+{"id": "a06", "text": "Quiero cambiar el nombre de mi empresa que aparece en el perfil.", "category": "account"}
+{"id": "a07", "text": "Necesito transferir la propiedad de la cuenta a otra persona del equipo.", "category": "account"}
+{"id": "a08", "text": "Me bloquearon la cuenta después de varios intentos de ingreso, ¿cómo la desbloqueo?", "category": "account"}
+{"id": "a09", "text": "¿Puedo tener dos sucursales dentro de la misma cuenta con usuarios separados?", "category": "account"}
+{"id": "o01", "text": "¿Tienen algún descuento para clientes que llevan más de 2 años con Nubbix?", "category": "other"}
+{"id": "o02", "text": "hola buenas, quería saber si tienen planes para empresas más grandes, somos 80 empleados", "category": "other"}
+{"id": "o03", "text": "¿Ofrecen capacitaciones para el equipo nuevo?", "category": "other"}
+{"id": "o04", "text": "Quisiera dar una sugerencia: sería genial poder personalizar los colores del sistema.", "category": "other"}
+{"id": "o05", "text": "¿Tienen oficina en Chile? Estamos pensando en abrir una sucursal allá.", "category": "other"}
+{"id": "o06", "text": "Buenas, ¿hacen integraciones a medida o solo las que están publicadas?", "category": "other"}
+{"id": "o07", "text": "Quería felicitarlos, el soporte de ayer fue excelente.", "category": "other"}
+{"id": "o08", "text": "¿Pueden enviarme material comercial para presentar a mi socio?", "category": "other"}
+{"id": "o09", "text": "hola, tengo una consulta pero no sé a quién preguntarle", "category": "other"}
