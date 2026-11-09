@@ -195,6 +195,7 @@ Las pruebas unitarias de `tests/` corren sin claves (`python -m pytest tests -q`
 - Los precios de `config/pricing.json` hay que mantenerlos al día a mano. La página de OpenAI marca `gpt-4o-mini` como deprecado: puede dejar de estar disponible.
 - Cada prompt se evaluó una sola vez por proveedor en la corrida final (la clasificación se corrió dos veces por la corrección del runner; en Anthropic la precisión fue idéntica y solo cambiaron tokens, costo y latencia). Anthropic corre sin temperatura fija (su SDK ya no la acepta), así que repetir la evaluación podría cambiar algún resultado.
 - La etiqueta del caso `a09` es discutible (ver "Proceso de iteración"): una parte de los errores medidos puede ser del dataset.
+- El repositorio se creó al final del desarrollo, así que el historial de commits se organizó por etapas lógicas del proyecto y no refleja el orden cronológico del trabajo.
 
 ## Uso de IA en este proyecto
 
